@@ -85,8 +85,8 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==1){
             if(resultCode == RESULT_OK){
-                //contact = (Contact)data.getSerializableExtra("data");
-                contact = new Contact(data.getStringExtra("name"),data.getStringExtra("phone"),data.getBooleanExtra("icon",false));
+                //contact = new Contact(data.getStringExtra("name"),data.getStringExtra("phone"),data.getBooleanExtra("icon",false));
+                contact =  (Contact)data.getSerializableExtra("contacTemp");
                 lstContact.add(contact);
                 adapterContact = new AdapterContact(lstContact);
                 lvContact.setAdapter(adapterContact);

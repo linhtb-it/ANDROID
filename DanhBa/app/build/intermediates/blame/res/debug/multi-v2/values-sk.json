@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ADR\\ListViewDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+            "outputFile": "E:\\ADR\\ANDROID\\DanhBa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6235320c5701d00955b3e3413fce791b\\res\\values-sk\\values-sk.xml",

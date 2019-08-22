@@ -49,7 +49,7 @@ public class AddContact extends AppCompatActivity {
                 boolean check = spin.getSelectedItem().toString().equals(type[2]);
                 contac = new Contact(etName.getText().toString(),etPhone.getText().toString(),!check);
                 Intent intent = new Intent(AddContact.this, MainActivity.class);
-                //intent.putExtra("data",contac);
+                intent.putExtra("contactTemp",contac);
                 intent.putExtra("name",etName.getText().toString());
                 intent.putExtra("phone",etPhone.getText().toString());
                 intent.putExtra("icon",!check);
